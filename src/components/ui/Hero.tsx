@@ -29,9 +29,8 @@ const Hero = () => {
             </span>{" "}
           </h1>
         </div>
-        <p className="text-primary/80 max-w-lg text-center tracking-tight md:text-lg font-light text-[#b1b1b1]">
-          Full-Stack Developer & Learner, Bringing Ideas to Life through Code
-          and Design.
+        <p className="text-primary/80 max-w-lg text-center tracking-tight md:text-lg font-light text-[#c9c9c9]">
+          FullStack Developer , Bringing Ideas to Life through Code and Design.
         </p>
 
         <CliCommand />

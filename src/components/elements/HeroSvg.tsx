@@ -44,7 +44,7 @@ const HeroSvg = () => {
         aria-label="TypeScript"
         role="img"
         viewBox="0 0 512 512"
-        className="  lg:block md:size-12 size-10 absolute lg:-top-10 top-80 lg:-left-24 left-1 -rotate-12 drop-shadow-[0_16px_24px_rgba(49,120,198,0.35)]"
+        className="  lg:block md:size-12 size-10 absolute lg:-top-10 top-80 lg:-left-24 left-5 -rotate-12 drop-shadow-[0_16px_24px_rgba(49,120,198,0.35)]"
         style={{
           x: mousePosition.x * 0.04, // Parallax effect based on mouse position
           y: mousePosition.y * 0.04,
@@ -94,7 +94,7 @@ const HeroSvg = () => {
         variants={floatingVariant}
         initial="initial"
         animate="animate"
-        className=" lg:block lg:size-12 size-10 absolute lg:bottom-20 lg:right-0 rotate-12 drop-shadow-[0_16px_24px_rgba(247,147,20,0.35)"
+        className=" lg:block lg:size-12 size-10 absolute lg:bottom-20 lg:right-0  rotate-12 drop-shadow-[0_16px_24px_rgba(247,147,20,0.35)"
         xmlns="http://www.w3.org/2000/svg"
         aria-label="JavaScript"
         role="img"
