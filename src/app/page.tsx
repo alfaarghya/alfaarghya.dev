@@ -1,9 +1,11 @@
+import Landing from "@/screens/Landing";
+
 const Home = () => {
   return (
-    <div className="flex justify-center">
-      `Hello world` - it is a classic! Every programmer writes this at least
-      once in their lifetime.
-    </div>
+    // <main className="">
+    <main className="bg-[#0A0A0A] h-full">
+      <Landing />
+    </main>
   );
 };
 
