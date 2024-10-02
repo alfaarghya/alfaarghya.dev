@@ -44,7 +44,7 @@ const HeroSvg = () => {
         aria-label="TypeScript"
         role="img"
         viewBox="0 0 512 512"
-        className="  lg:block md:size-12 size-10 absolute md:-top-10 top-80 md:-left-24 left-20 -rotate-12 drop-shadow-[0_16px_24px_rgba(49,120,198,0.35)]"
+        className="  lg:block md:size-12 size-10 absolute lg:-top-10 top-80 lg:-left-24 left-1 -rotate-12 drop-shadow-[0_16px_24px_rgba(49,120,198,0.35)]"
         style={{
           x: mousePosition.x * 0.04, // Parallax effect based on mouse position
           y: mousePosition.y * 0.04,
@@ -60,7 +60,7 @@ const HeroSvg = () => {
         />
       </motion.svg>
       <motion.svg
-        className=" lg:block md:size-12 size-10 absolute md:top-80 top-96 md:-left-32 left-52 drop-shadow-[0_16px_24px_rgba(0,0,255,0.35)] "
+        className=" lg:block md:size-12 size-10 absolute lg:top-80 top-96 lg:-left-32 left-56 drop-shadow-[0_16px_24px_rgba(0,0,255,0.35)] "
         style={{
           x: mousePosition.x * 0.02, // Parallax effect based on mouse position
           y: mousePosition.y * 0.02,
@@ -94,7 +94,7 @@ const HeroSvg = () => {
         variants={floatingVariant}
         initial="initial"
         animate="animate"
-        className="hidden lg:block size-12 absolute bottom-20 right-0 rotate-12 drop-shadow-[0_16px_24px_rgba(247,147,20,0.35)"
+        className=" lg:block lg:size-12 size-10 absolute lg:bottom-20 lg:right-0 rotate-12 drop-shadow-[0_16px_24px_rgba(247,147,20,0.35)"
         xmlns="http://www.w3.org/2000/svg"
         aria-label="JavaScript"
         role="img"
@@ -111,7 +111,7 @@ const HeroSvg = () => {
         variants={floatingVariant}
         initial="initial"
         animate="animate"
-        className="hidden lg:block size-14 absolute top-96 -right-32 rotate-12 drop-shadow-[0_16px_24px_rgba(0,0,255,0.35)"
+        className=" lg:block lg:size-14 size-10 absolute lg:top-96 -top-5 lg:-right-32 right-24 rotate-12 drop-shadow-[0_16px_24px_rgba(0,0,255,0.35)"
         fill="none"
         viewBox="0, 0, 32, 32"
         xmlns="http://www.w3.org/2000/svg"
