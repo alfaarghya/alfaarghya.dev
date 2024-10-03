@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import DockElement from "@/components/elements/DockElement";
 import { motion } from "framer-motion";
@@ -17,7 +16,7 @@ const Dock = () => {
       }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="flex md:justify-center justify-start items-center"
+      className="flex md:justify-center justify-start "
     >
       <DockElement
         desktopClassName="fixed bottom-4 "
