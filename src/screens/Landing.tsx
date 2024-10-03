@@ -1,3 +1,4 @@
+import Dock from "@/components/ui/Dock";
 import Hero from "@/components/ui/Hero";
 import React from "react";
 
@@ -11,6 +12,7 @@ const Landing = () => {
           even more cooler animations soon :)
         </p>
       </div>
+      <Dock />
     </div>
   );
 };
