@@ -2,10 +2,15 @@
 import { motion } from "framer-motion";
 import HeroSvg from "../elements/HeroSvg";
 import CliCommand from "../elements/CliCommand";
+import Spotlight from "../elements/Spotlight";
 
 const Hero = () => {
   return (
     <div className="flex flex-col gap-4 h-screen size-screen mx-auto justify-center">
+      <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="#0957dd"
+      />
       <HeroSvg />
       <motion.div
         animate={{ y: 0, opacity: 1 }}
@@ -24,7 +29,7 @@ const Hero = () => {
             Hii, I&apos;m
           </span>
           <h1 className="tracking-tighter text-6xl md:text-7xl xl:text-8xl text-center font-bold my-2">
-            <span className="font-bold bg-gradient-to-b from-[#1B4284] to-blue-700 bg-clip-text text-transparent">
+            <span className="font-bold bg-gradient-to-b from-[#1b4284] to-blue-700 bg-clip-text text-transparent">
               Arghya Das
             </span>{" "}
           </h1>
