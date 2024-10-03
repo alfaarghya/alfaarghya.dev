@@ -13,7 +13,7 @@ const CliCommand = () => {
     });
   };
   return (
-    <div className="flex justify-center items-center mt-10 p-2 border border-[#bebebe] gap-2 rounded text-[#b1b1b1] text-sm">
+    <div className="flex justify-center items-center mt-10 p-2 px-4 border border-[#bebebe]/50  gap-2 rounded-xl text-[#b1b1b1] text-sm">
       <pre className="">npx alfaarghya</pre>
       <button className=" transition " onClick={handleCopy}>
         {copied ? (
