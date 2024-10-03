@@ -1,3 +1,4 @@
+import AppBar from "@/components/ui/AppBar";
 import Dock from "@/components/ui/Dock";
 import Hero from "@/components/ui/Hero";
 import React from "react";
@@ -5,6 +6,7 @@ import React from "react";
 const Landing = () => {
   return (
     <div className="flex flex-col">
+      <AppBar />
       <Hero />
       <div className="h-screen flex justify-center items-center">
         <p className="text-[#c9c9c9] text-center">
