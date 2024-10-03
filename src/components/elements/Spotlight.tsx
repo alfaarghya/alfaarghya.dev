@@ -1,12 +1,8 @@
 import { cn } from "@/lib/utils";
+import { spotlightType } from "@/types/spotlightType";
 import React from "react";
 
-type SpotlightProps = {
-  className?: string;
-  fill?: string;
-};
-
-const Spotlight = ({ className, fill }: SpotlightProps) => {
+const Spotlight = ({ className, fill }: spotlightType) => {
   return (
     <svg
       className={cn(
