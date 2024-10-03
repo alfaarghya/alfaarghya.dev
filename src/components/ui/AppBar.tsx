@@ -13,7 +13,7 @@ const AppBar = () => {
 
   return (
     <div
-      className={`mt-2 fixed top-0 left-1/2 transform -translate-x-1/2 h-20 md:w-2/3 w-5/6 rounded-2xl bg-neutral-500/10 backdrop-blur-sm px-4 flex justify-between items-center z-50 transition-all duration-700 ease-in-out ${
+      className={`mt-2 fixed top-0 left-1/2 transform -translate-x-1/2 h-20 md:w-2/3 w-screen  rounded-2xl bg-neutral-500/10 backdrop-blur-sm px-4 flex justify-between items-center z-50 transition-all duration-700 ease-in-out ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
       }`}
     >
