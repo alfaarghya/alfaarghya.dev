@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <BootScreen />
-      <main className="bg-[#0A0A0A] h-full p-2">
+      <main>
         <Landing />
       </main>
     </>

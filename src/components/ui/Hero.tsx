@@ -8,7 +8,8 @@ const Hero = () => {
   return (
     <div className="flex flex-col gap-4 h-screen size-screen mx-auto justify-center">
       <Spotlight
-        className="-top-40 left-0 md:left-60 md:-top-20"
+        // -top-40 left-0
+        className=" hidden md:block  md:left-60 md:-top-20"
         fill="#0957dd"
       />
       <HeroSvg />
