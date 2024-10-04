@@ -12,7 +12,7 @@ const Dock = () => {
         ease: "easeInOut",
         type: "spring",
         damping: 10,
-        delay: 0.6,
+        delay: 3.5,
       }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

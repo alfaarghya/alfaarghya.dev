@@ -19,7 +19,7 @@ const Hero = () => {
           ease: "easeInOut",
           type: "spring",
           damping: 10,
-          delay: 0.3,
+          delay: 3,
         }}
         initial={{ y: -20, opacity: 0 }}
         className="max-w-7xl mx-auto px-4 flex flex-col gap-4 items-center justify-center"

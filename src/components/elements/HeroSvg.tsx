@@ -25,12 +25,14 @@ const HeroSvg = () => {
       opacity: 1,
       transition: {
         y: {
+          delay: 3,
           duration: 3,
           ease: "easeInOut",
           repeat: Infinity,
         },
         opacity: {
-          duration: 0.8,
+          delay: 3,
+          duration: 0.5,
           ease: "easeInOut",
         },
       },

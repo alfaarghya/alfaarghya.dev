@@ -10,11 +10,10 @@ const AppBar = () => {
   useEffect(() => {
     setIsVisible(true); // Trigger the animation after the component mounts
   }, []);
-  //  w-4/5
   return (
     <div className="w-full flex justify-center items-center">
       <div
-        className={`mt-4 fixed top-0  h-20 md:w-2/3 sm:w-96 w-80 rounded-2xl bg-neutral-500/10 backdrop-blur-sm px-4 flex justify-between items-center z-50 transition-all duration-700 ease-in-out ${
+        className={`mt-4 fixed top-0  h-20 md:w-2/3 sm:w-96 w-80 rounded-2xl bg-neutral-500/10 backdrop-blur-sm px-4 flex justify-between items-center z-50 transition-all duration-700 delay-[3200ms] ease-in-out ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
         }`}
       >
