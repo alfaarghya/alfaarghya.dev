@@ -4,7 +4,7 @@ export const bootWords = [
   "Bonjour",
   "안녕하세요",
   "Hallo",
-  "হাই",
-  "Ciao",
   "नमस्ते",
+  "Ciao",
+  "নমস্কার",
 ];
