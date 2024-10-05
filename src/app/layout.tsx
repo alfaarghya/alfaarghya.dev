@@ -5,8 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "alfaarghya.dev",
-  description: "A Personal Portfolio 🚀 ~ Arghya Das",
+  title: "alfaarghya.dev - Shape Ideas with Technology",
+  description:
+    "A personal portfolio created by Arghya Das (alfaarghya), a full-stack software developer, focused on crafting meaningful web applications with creativity and technical expertise, turning intricate ideas into real-world digital solutions, one line of code at a time",
 };
 
 export default function RootLayout({
