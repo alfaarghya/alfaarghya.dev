@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import DockElement from "@/components/elements/DockElement";
+import DockElement from "@/components/elements/dock/DockElement";
 import { motion } from "framer-motion";
 import { dockItems } from "@/stores/dockStore";
 

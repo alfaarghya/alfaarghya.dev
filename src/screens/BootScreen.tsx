@@ -1,6 +1,6 @@
 "use client";
 
-import Preloader from "@/components/elements/BootElement";
+import Preloader from "@/components/elements/bootscreen/BootElement";
 import { AnimatePresence } from "framer-motion";
 import React, { useEffect, useState } from "react";
 

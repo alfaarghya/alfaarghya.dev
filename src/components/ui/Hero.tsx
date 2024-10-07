@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
-import HeroSvg from "../elements/HeroSvg";
-import CliCommand from "../elements/CliCommand";
-import Spotlight from "../elements/Spotlight";
+import HeroSvg from "../elements/hero/HeroSvg";
+import CliCommand from "../elements/hero/CliCommand";
+import Spotlight from "../elements/hero/Spotlight";
 
 const Hero = () => {
   return (
