@@ -7,16 +7,20 @@ export const dockItems: dockType[] = [
     href: "#",
   },
   {
-    title: "Skills",
-    icon: "/dockSvg/terminal-dock.svg",
-    href: "#",
+    title: "Mail",
+    icon: "/dockSvg/email-circle-fill-svgrepo-com.svg",
+    href: "mailto:arghya.coding@gmail.com",
   },
-  {
-    title: "Projects",
-    icon: "/dockSvg/code-dock.svg",
-    href: "#",
-  },
-
+  // {
+  //   title: "Skills",
+  //   icon: "/dockSvg/terminal-dock.svg",
+  //   href: "#",
+  // },
+  // {
+  //   title: "Projects",
+  //   icon: "/dockSvg/code-dock.svg",
+  //   href: "#",
+  // },
   {
     title: "GitHub",
     icon: "/dockSvg/github-dock.svg",
