@@ -68,6 +68,8 @@ const DockMobile = ({
                 <Link
                   href={item.href}
                   key={item.title}
+                  target={item.newTab ? "_blank" : "_self"}
+                  rel={item.newTab ? "noopener noreferrer" : undefined} // Add security for new tab links
                   className="h-10 w-10 rounded-full bg-neutral-900 flex items-center justify-center"
                 >
                   <div className="h-4 w-4">
@@ -123,11 +125,13 @@ function IconContainer({
   title,
   icon,
   href,
+  newTab,
 }: {
   mouseX: MotionValue;
   title: string;
   icon: string;
   href: string;
+  newTab: boolean;
 }) {
   let ref = useRef<HTMLDivElement>(null);
 
@@ -172,7 +176,11 @@ function IconContainer({
   const [hovered, setHovered] = useState(false);
 
   return (
-    <Link href={href}>
+    <Link
+      href={href}
+      target={newTab ? "_blank" : "_self"}
+      rel={newTab ? "noopener noreferrer" : undefined} // Add security for new tab links
+    >
       <motion.div
         ref={ref}
         style={{ width, height }}
