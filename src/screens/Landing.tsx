@@ -14,8 +14,8 @@ const Landing = () => {
       <Projects />
       <div className="h-screen flex justify-center items-center">
         <p className="text-[#c9c9c9] text-center">
-          Website is Complete, But I Will add more cool thing over the time, so
-          stay tuned :)
+          Website is Complete, But I Will add more things over the time, so stay
+          tuned :)
         </p>
       </div>
       <Dock />
