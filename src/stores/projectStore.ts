@@ -9,6 +9,20 @@ export const projects: project[] = [
     link: "https://github.com/alfaarghya/alfa-leetcode-api",
   },
   {
+    title: "CMA",
+    description: `Real-time chat application to chat with groups and chat with one person`,
+    src: "/projects/cma.png",
+    color: "#9CA3AF",
+    link: "https://github.com/alfaarghya/cma",
+  },
+  {
+    title: "OMS",
+    description: `OMS is end-to-end order managment solution for Merchant & Customer. From Listing the product to deliver the order, OMS handles it all.`,
+    src: "/projects/oms.png",
+    color: "#50013A",
+    link: "https://github.com/alfaarghya/oms",
+  },
+  {
     title: "blog-web",
     description: "A simple blogging application to perform CURD operation",
     src: "/projects/blog-web.png",

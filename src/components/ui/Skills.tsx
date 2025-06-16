@@ -5,7 +5,7 @@ import CardType2 from "../elements/skill/cards/CardType2";
 
 const Skills = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center pt-20">
+    <div className="w-full flex flex-col justify-center items-center py-20">
       <div className="w-full flex justify-center mb-96">
         <RevealAnimation>
           <div className="flex justify-center items-center">
